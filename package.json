@@ -1,19 +1,24 @@
 {
-  "name": "git-teste",
+  "name": "git-teste-",
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run lite", 
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server" 
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/igorborges812/git-teste.git"
   },
-  "author": "igor",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/igorborges812/git-teste/issues"
   },
-  "homepage": "https://github.com/igorborges812/git-teste#readme"
+  "homepage": "https://github.com/igorborges812/git-teste#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
